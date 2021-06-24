@@ -67,8 +67,8 @@ public class OpticalFlow extends Thread
             }
             else
             {
-                JOptionPane.showMessageDialog(null,"No es posible acceder a la cámara."); 
                 ejecutar = false;
+                JOptionPane.showMessageDialog(null,"No es posible acceder a la cámara."); 
             }
         }  
     }
